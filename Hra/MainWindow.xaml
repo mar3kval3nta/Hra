@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         ResizeMode="NoResize"
         Title="MainWindow" Height="500" Width="350">
-    <Grid IsEnabled="False">
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -120,7 +120,7 @@
         <Rectangle Name="Rectangle_8_5" Grid.Row="8" Grid.Column="5" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="#FFD9D9D9" />
         <Rectangle Name="Rectangle_8_6" Grid.Row="8" Grid.Column="6" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="#FFD9D9D9" />
         <Rectangle Name="Rectangle_8_7" Grid.Row="8" Grid.Column="7" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="#FFD9D9D9" />
-
+        
         <Button Content="Vyhodnotit" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="153" FontSize="24" />
         <Button Content="Nová hra" Grid.Row="9" Grid.Column="4" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="153" FontSize="24" />
 
